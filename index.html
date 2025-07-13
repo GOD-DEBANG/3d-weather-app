@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glow Weather</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🌐 Navbar -->
+  <nav class="navbar">
+    <div class="logo">🌤️ GlowWeather</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🌤 Weather App Main -->
+  <div class="container">
+    <div class="weather-card">
+      <h1 class="title">Check the Weather</h1>
+      <input type="text" id="cityInput" placeholder="Enter City..." />
+      <button onclick="getWeather()">Search</button>
+      <div id="weatherResult" class="hidden">
+        <h2 id="cityName"></h2>
+        <img id="icon" class="icon" />
+        <p id="description"></p>
+        <h3 id="temp"></h3>
+        <p><strong>💧 Humidity:</strong> <span id="humidity"></span>%</p>
+        <p><strong>💨 Wind Speed:</strong> <span id="wind"></span> km/h</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🔻 Footer -->
+  <footer class="footer">
+    <p>© 2025 GlowWeather Inc.</p>
+    <ul class="footer-links">
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms & Conditions</a></li>
+      <li><a href="#">Support</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
