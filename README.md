@@ -76,7 +76,7 @@ Do not expose API keys in production frontend apps. Use server-side proxy or env
 
 ## 📸 Screenshots
 
-> _Add screenshots of the app interface here if available to better showcase your UI design._
+> _ScreenShot link :{"C:\Users\GOD.DEBANG\Pictures\Screenshots\Screenshot 2025-07-12 185606.png"};
 
 ---
 
